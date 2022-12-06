@@ -1,0 +1,110 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    background-color: rgb(235, 235, 235);
+}
+
+header{
+    background-color: white;
+    display: flex;
+    padding: 25px 0;
+    justify-content: space-around;
+}
+
+img{
+    height: 100px;
+}
+
+.logo-container{
+    display: flex;
+    gap: 10px;
+}
+
+header, h1{
+    align-self: flex-end;
+}
+
+.menu{
+    align-self: flex-end;
+    color: black;
+    transition: all 0.3s;
+    border-bottom-color: black;
+}
+
+.menu:hover{
+    padding-bottom: 10px;
+    opacity: 0.7;
+    border-bottom-color: grey;
+}
+
+.container{
+    margin-top: 10%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    border-radius: 7px;
+    width: 60%;
+    display: flex;
+    justify-content: center;
+}
+
+form{
+    margin: 20px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    justify-content: center;
+    width: 80%;
+}
+
+form, h1{
+    font-size: 18px;
+}
+
+label{
+    font-size: 32px;
+}
+
+input{
+    font-size: 24px;
+}
+
+.actions{
+    align-self: flex-end;
+    display: flex;
+    align-items: center;
+    gap: 200px;
+    margin-bottom: 15px;
+}
+
+a{
+    color: grey;
+    font-size: 18px;
+    border-bottom: 1px solid grey;
+    transition: all 0.3s;
+}
+
+a:hover{
+    padding-bottom: 10px;
+    opacity: 0.7;
+    border-bottom-color: grey;
+}
+
+.btn-primary{
+    padding: 10px 20px;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    transition: all 0.3s;
+}
+
+.btn-primary:hover{
+    cursor: pointer;
+    opacity: 0.5;
+}
